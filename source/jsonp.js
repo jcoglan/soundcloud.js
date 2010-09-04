@@ -1,7 +1,7 @@
 SoundCloud.JSONP = {
   request: function(url, callback, scope) {
     var head   = document.getElementsByTagName('head')[0],
-        script = document.createElement('script')
+        script = document.createElement('script'),
         name   = this.getCallbackName();
     
     var handler = function(response) {

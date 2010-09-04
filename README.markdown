@@ -6,6 +6,14 @@ browser. Requires [JS.Class][1]
 [1]: http://jsclass.jcoglan.com
 
 
+== Build it
+
+    gem install jake
+    git clone git://github.com/jcoglan/soundcloud.js
+    cd soundcloud.js
+    jake
+
+
 == Examples
 
     SoundCloud.KEY = 'YOUR_KEY_HERE';
