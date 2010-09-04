@@ -1,0 +1,18 @@
+---
+source_directory:     source
+build_directory:      build
+layout:               together
+
+builds:
+  src:
+    packer:           false
+    suffix:           false
+  min:
+    shrink_vars:      true
+    private:          true
+
+packages:
+  soundcloud:
+    - soundcloud
+    - jsonp
+    - user
