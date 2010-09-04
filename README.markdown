@@ -1,12 +1,14 @@
-= SoundCloud - in JavaScript!
+SoundCloud - in JavaScript!
+===========================
 
 Some object wrappers for the SoundCloud API to be used in the
-browser. Requires [JS.Class][1]
+browser. Requires [JS.Class][1].
 
 [1]: http://jsclass.jcoglan.com
 
 
-== Build it
+Build it
+--------
 
     gem install jake
     git clone git://github.com/jcoglan/soundcloud.js
@@ -14,7 +16,8 @@ browser. Requires [JS.Class][1]
     jake
 
 
-== Examples
+Examples
+--------
 
     SoundCloud.KEY = 'YOUR_KEY_HERE';
     
